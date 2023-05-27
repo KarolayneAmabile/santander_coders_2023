@@ -1,0 +1,15 @@
+INTEIRO x1, x2
+REAL res
+
+ESCREVA "digite um número positivo"
+LEIA x1
+ESCREVA "digite outro número positivo"
+LEIA x2
+
+SE (x1 > x2) ENTAO FAÇA
+    res <- (x1-x2)/x1
+SENAO FAÇA
+    res <- (x2-x1)/x2
+FIM_SE
+
+ESCREVA res

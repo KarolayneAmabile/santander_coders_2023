@@ -1,0 +1,19 @@
+INTEIRO x, i, t, e
+REAL a
+
+ESCREVA "Digite um número: "
+LEIA x
+
+i <- 0
+t <- 0
+
+ENQUANTO i < x FAÇA
+    ESCREVA "Digite um número: "
+    LEIA e
+    t <- t + e
+    i <- i + 1
+FIM_ENQUANTO
+
+a <- t/x
+
+ESCREVA i, a

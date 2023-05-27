@@ -1,0 +1,14 @@
+CARACTER nome, dia, mes
+
+ESCREVA "Bem-vindo(a) ao App Ada"
+
+ESCREVA "Digite o seu nome: "
+LEIA nome
+
+ESCREVA "Digite o dia que você nasceu: "
+LEIA dia
+
+ESCREVA "Digite o mês que você nasceu: "
+LEIA mes
+
+ESCREVA "Login:", dia + nome + mes

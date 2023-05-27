@@ -1,0 +1,8 @@
+A <- 30
+B <- 20
+C <- A + B
+ESCREVA C
+B <- 10
+ESCREVA B, C
+C <- A + B
+ESCREVA A, B, C
